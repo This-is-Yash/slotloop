@@ -1,7 +1,7 @@
 import React,{useEffect,useState}from"react";
 import{Search,MapPin,Clock,Store,ArrowUpRight,LayoutDashboard,Plus,RefreshCw,X,CheckCircle2}from"lucide-react";
 // const api=async(p,o={})=>{const r=await fetch("/api"+p,{headers:{"Content-Type":"application/json"},...o});const d=await r.json();if(!r.ok)throw Error(d.detail||"Request failed");return d};
-const API_BASE = "http://127.0.0.1:8000";
+const API_BASE = "https://slotloop-api.onrender.com";
 
 const api = async (p, o = {}) => {
   const r = await fetch(`${API_BASE}/api${p}`, {
