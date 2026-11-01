@@ -29,3 +29,6 @@ All seeded businesses, slots, prices and bookings are fictional demo data. No ac
 
 ## Production work still required
 Business verification and consent, authenticated business/customer accounts, payment/refund integration, timezone-aware UTC storage, privacy controls, audit logging, rate limiting, monitoring, backups and real-time inventory synchronization.
+
+## Live Link:
+link:https://this-is-yash.github.io/slotloop/
